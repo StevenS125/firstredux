@@ -1,0 +1,26 @@
+{
+  "name": "firstredux",
+  "version": "1.0.0",
+  "description": "my first redux application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StevenS125/firstredux.git"
+  },
+  "author": "Steve Snyder",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/StevenS125/firstredux/issues"
+  },
+  "homepage": "https://github.com/StevenS125/firstredux#readme",
+  "dependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-preset-latest": "^6.16.0"
+  },
+  "devDependencies": {
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
