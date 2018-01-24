@@ -4,7 +4,7 @@
   "description": "my first redux application",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "./node_modules/.bin/webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -17,10 +17,15 @@
   },
   "homepage": "https://github.com/StevenS125/firstredux#readme",
   "dependencies": {
-    "babel-cli": "^6.16.0",
-    "babel-preset-latest": "^6.16.0"
+    "redux": "^3.7.2"
   },
   "devDependencies": {
-    "babel-preset-stage-0": "^6.24.1"
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "json-loader": "^0.5.7",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
   }
 }
